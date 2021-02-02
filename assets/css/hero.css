@@ -1,0 +1,23 @@
+/* Palete Colors */
+/* Fonts */
+#hero .logo {
+  width: 60px !important; }
+
+#hero-content p {
+  color: #777777;
+  margin-bottom: 1rem; }
+
+#hero-content h1 {
+  color: #222222;
+  font-size: 2.3rem;
+  margin-bottom: 1rem; }
+  #hero-content h1 span {
+    color: #023E8A;
+    font-weight: 700 !important; }
+
+#hero-content .lucas-hero {
+  box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25); }
+
+#hero-content .cta-hero .github:hover {
+  background-color: #000;
+  color: #fff; }

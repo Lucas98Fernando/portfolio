@@ -1,3 +1,5 @@
+@import "../scss/colors.scss";
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -10,10 +12,10 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #023E8A;
+    background: $primary;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #777777;
+    background: $secondary;
 }

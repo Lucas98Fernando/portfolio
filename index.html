@@ -20,15 +20,17 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 
 	<!-- Tailwind CSS -->
-	<link rel="stylesheet" href="assets/css/tailwind.css">
+	<!-- <link rel="stylesheet" href="assets/css/tailwind.css"> -->
 
 	<!-- Font Awesome CDN-->
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+	<link rel="shortcut icon" href="/assets/img/logo.png" type="image/x-icon">
 </head>
 
 <body>
 
-	<header id="hero" class="section">
+	<header id="hero">
 		<!-- Just an image -->
 		<nav class="navbar navbar-light">
 			<div class="container">
@@ -40,17 +42,17 @@
 				</a>
 			</div>
 		</nav>
-		<div id="hero-content" class="container">
+		<div id="hero-content" class="container section">
 			<div class="row d-flex justify-content-center align-items-center">
 				<div class="col-md-6">
 					<p>Hello, world !</p>
 					<h1 class="h1">Me chamo <span>Lucas Fernando</span></h1>
 					<p>Front-end developer</p>
 					<div class="cta-hero">
-						<div class="tw-inline-block">
+						<div class="d-inline-block">
 							<a class="btn btn-primary btn-lg mr-4" href="#">LinkedIn <i class="fab fa-linkedin"></i></a>
 						</div>
-						<div class="tw-inline-block">
+						<div class="d-inline-block">
 							<a class="btn btn-lg border border-primary github" href="#">GitHub <i
 									class="fab fa-github"></i></a>
 						</div>
@@ -63,8 +65,77 @@
 		</div>
 	</header>
 
-	<section>Sobre mim</section>
-	<section>Habilidades</section>
+	<section id="about" class="section">
+		<div class="container">
+			<div class="row d-flex justify-content-center align-items-center">
+				<div class="col-md-6">
+					<img class="img-fluid lucas-about rounded-circle" src="/assets/img/lucas-about.jpg" alt="">
+				</div>
+				<div class="col-md-6">
+					<div class="section-header">
+						<h2 class="h2">Sobre mim</h2>
+						<p>Sou extremamente apoixonado por tecnologia, adoro aprender coisas novas e me desafiar a cada
+							dia.
+						</p>
+						<p>Estou buscando evoluir constantemente, porém não busco ser melhor que ninguém, apenas quero
+							ser
+							melhor do que eu fui ontem.
+						</p>
+						<p>
+							Gosto bastante de passar o que eu sei para outras pessoas, para dessa forma, crescermos
+							juntos.
+						</p>
+					</div>
+					<div class="d-inline-block">
+						<a class="btn btn-primary btn-lg btn-cv" href="#">Baixar CV <i class="fas fa-download"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="skills" class="section">
+		<div class="container">
+			<div class="row d-flex justify-content-center align-items-center">
+				<div class="col-md-12 text-center">
+					<div class="section-header">
+						<h2>Habilidades</h2>
+						<p class="section-header-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							Quae optio veniam dolor inventore non! Ducimus velit reiciendis hic totam nostrum optio,
+							ipsam tempore autem tenetur quas, sit, labore saepe dolores!</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="progress my-4">
+						<div class="progress-bar bg-primary" role="progressbar" style="width: 50%"
+							aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<div class="progress my-4">
+						<div class="progress-bar bg-primary" role="progressbar" style="width: 50%"
+							aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<div class="progress my-4">
+						<div class="progress-bar bg-primary" role="progressbar" style="width: 50%"
+							aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="progress my-4">
+						<div class="progress-bar bg-primary" role="progressbar" style="width: 50%"
+							aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<div class="progress my-4">
+						<div class="progress-bar bg-primary" role="progressbar" style="width: 50%"
+							aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<div class="progress my-4">
+						<div class="progress-bar bg-primary" role="progressbar" style="width: 50%"
+							aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<section>Estudando</section>
 	<section>Portfólio</section>
 	<section>Contato</section>
