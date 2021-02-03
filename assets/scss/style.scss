@@ -3,52 +3,11 @@
 @import "../scss/fonts.scss";
 @import "../scss/buttons.scss";
 
+@import "../scss/global.scss";
 @import "../scss/hero.scss";
 @import "../scss/about.scss";
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: $montserrat !important;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: $poppins;
-    font-weight: 600 !important;
-}
-
-p {
-    font-weight: 500;
-    margin-bottom: 1rem !important;
-}
-
-a {
-    text-decoration: none;
-}
-
-.section {
-    padding: 50px 0;
-}
-
-.section-header {
-
-    & h2 {
-        color: $primary;
-        font-weight: 700 !important;
-        font-size: 2.3rem;
-        margin-bottom: 1rem;
-    }
-
-    & .section-header-description {
-        color: $secondary;
-    }
-}
+@import "../scss/study.scss";
+@import "../scss/contact.scss";
+@import "../scss/footer.scss";
 
 @import "node_modules/bootstrap/scss/bootstrap";

@@ -17,3 +17,7 @@
     font-size: 30px;
     font-weight: 500;
     padding-left: 8px; }
+
+.cta .github:hover {
+  background-color: #000;
+  color: #fff; }

@@ -1,0 +1,16 @@
+@import "../scss/colors.scss";
+@import "../scss/fonts.scss";
+
+#footer {
+    padding: 30px 0;
+    background: $primary;
+
+    span {
+        color: #fff;
+    }
+
+    i {
+        color: #fff;
+        font-size: 30px;
+    }
+}

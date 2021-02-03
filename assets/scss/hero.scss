@@ -7,30 +7,21 @@
 
 #hero-content {
 
-    & p {
+    padding: 50px 0;
+
+    p {
         color: $secondary;
         margin-bottom: 1rem;
     }
 
-    & h1 {
+    h1 {
         color: $light-black;
         font-size: 2.3rem;
         margin-bottom: 1rem;
 
-        & span {
+        span {
             color: $primary;
             font-weight: 700 !important;
-        }
-    }
-
-    & .lucas-hero {
-        box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    & .cta-hero .github {
-        &:hover {
-            background-color: #000;
-            color: #fff;
         }
     }
 }

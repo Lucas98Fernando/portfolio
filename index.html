@@ -25,55 +25,70 @@
 	<!-- Font Awesome CDN-->
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 
+	<!-- Favicon -->
 	<link rel="shortcut icon" href="/assets/img/logo.png" type="image/x-icon">
+
+	<!-- AOS Animation Libary CDN -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<!-- Animate.css CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
 
 	<header id="hero">
-		<!-- Just an image -->
+
 		<nav class="navbar navbar-light">
 			<div class="container">
 				<a class="navbar-brand" href="#">
-					<img class="img-fluid logo" src="assets/img/logo.png" alt="">
+					<img class="img-fluid logo" src="assets/img/logo.png" alt="Logo" data-aos="zoom-in"
+						data-aos-delay="200">
 				</a>
 				<a class="ml-auto" href="#">
 					<img src="assets/img/bars.png" alt="">
 				</a>
 			</div>
 		</nav>
-		<div id="hero-content" class="container section">
+
+		<div id="hero-content" class="container">
 			<div class="row d-flex justify-content-center align-items-center">
 				<div class="col-md-6">
-					<p>Hello, world !</p>
-					<h1 class="h1">Me chamo <span>Lucas Fernando</span></h1>
-					<p>Front-end developer</p>
-					<div class="cta-hero">
+					<p class="animate__animated animate__fadeInDown animate__delay-1s">Hello, world !</p>
+					<h1 class="h1 animate__animated animate__fadeInLeft animate__delay-2s">Me chamo <span>Lucas
+							Fernando</span></h1>
+					<p class="animate__animated animate__fadeInUp animate__delay-3s">Front-end developer</p>
+					<div class="cta">
 						<div class="d-inline-block">
-							<a class="btn btn-primary btn-lg mr-4" href="#">LinkedIn <i class="fab fa-linkedin"></i></a>
+							<a class="btn btn-primary btn-lg mr-4 animate__animated animate__zoomIn animate__delay-4s"
+								href="https://www.linkedin.com/in/lucas-fernando-dev/" target="_blank">LinkedIn <i
+									class="fab fa-linkedin"></i></a>
 						</div>
 						<div class="d-inline-block">
-							<a class="btn btn-lg border border-primary github" href="#">GitHub <i
+							<a class="btn btn-lg border border-light-black github animate__animated animate__zoomIn animate__delay-4s"
+								href="https://github.com/Lucas98Fernando" target="_blank">GitHub <i
 									class="fab fa-github"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-6">
-					<img class="img-fluid lucas-hero rounded-circle" src="assets/img/lucas-hero.jpg" alt="">
+					<img class="img-fluid lucas-hero rounded-circle animate__animated animate__flipInY animate__delay-5s"
+						src="assets/img/lucas-hero.jpg" alt="">
 				</div>
 			</div>
 		</div>
+
 	</header>
 
 	<section id="about" class="section">
 		<div class="container">
 			<div class="row d-flex justify-content-center align-items-center">
 				<div class="col-md-6">
-					<img class="img-fluid lucas-about rounded-circle" src="/assets/img/lucas-about.jpg" alt="">
+					<img class="img-fluid lucas-about rounded-circle" src="/assets/img/lucas-about.jpg" alt="" data-aos="fade-right" data-aos-delay="300">
 				</div>
 				<div class="col-md-6">
 					<div class="section-header">
-						<h2 class="h2">Sobre mim</h2>
+						<h2 class="h2" data-aos="zoom-in" data-aos-delay="200">Sobre mim</h2>
 						<p>Sou extremamente apoixonado por tecnologia, adoro aprender coisas novas e me desafiar a cada
 							dia.
 						</p>
@@ -100,52 +115,227 @@
 				<div class="col-md-12 text-center">
 					<div class="section-header">
 						<h2>Habilidades</h2>
-						<p class="section-header-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Quae optio veniam dolor inventore non! Ducimus velit reiciendis hic totam nostrum optio,
-							ipsam tempore autem tenetur quas, sit, labore saepe dolores!</p>
+						<p class="section-header-description">As principais habilidades que eu possuo.</p>
 					</div>
 				</div>
 				<div class="col-md-6">
-					<div class="progress my-4">
-						<div class="progress-bar bg-primary" role="progressbar" style="width: 50%"
-							aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					<div class="skills-stats d-flex justify-content-between">
+						<span>HTML</span>
+						<span>80%</span>
 					</div>
 					<div class="progress my-4">
-						<div class="progress-bar bg-primary" role="progressbar" style="width: 50%"
-							aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+						<div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80"
+							aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<div class="skills-stats d-flex justify-content-between">
+						<span>Bootstrap</span>
+						<span>80%</span>
 					</div>
 					<div class="progress my-4">
-						<div class="progress-bar bg-primary" role="progressbar" style="width: 50%"
-							aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+						<div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80"
+							aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<div class="skills-stats d-flex justify-content-between">
+						<span>Figma</span>
+						<span>70%</span>
+					</div>
+					<div class="progress my-4">
+						<div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70"
+							aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
 				</div>
 				<div class="col-md-6">
-					<div class="progress my-4">
-						<div class="progress-bar bg-primary" role="progressbar" style="width: 50%"
-							aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					<div class="skills-stats d-flex justify-content-between">
+						<span>Git / GitHub</span>
+						<span>80%</span>
 					</div>
 					<div class="progress my-4">
-						<div class="progress-bar bg-primary" role="progressbar" style="width: 50%"
-							aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+						<div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80"
+							aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<div class="skills-stats d-flex justify-content-between">
+						<span>CSS</span>
+						<span>70%</span>
 					</div>
 					<div class="progress my-4">
-						<div class="progress-bar bg-primary" role="progressbar" style="width: 50%"
-							aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+						<div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="50"
+							aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<div class="skills-stats d-flex justify-content-between">
+						<span>Javascript</span>
+						<span>40%</span>
+					</div>
+					<div class="progress my-4">
+						<div class="progress-bar bg-primary" role="progressbar" style="width: 40%" aria-valuenow="40"
+							aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section>Estudando</section>
-	<section>Portfólio</section>
-	<section>Contato</section>
-	<footer>Footer</footer>
+
+	<section id="study-now" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="section-header">
+						<h2>Estudando atualmente</h2>
+						<p class="section-header-description">Tecnologias que estou estudando atualmente.</p>
+					</div>
+					<img class="img-fluid" src="/assets/img/javascript.png" alt="javascript">
+					<img class="img-fluid mx-4" src="/assets/img/react.png" alt="React JS">
+					<img class="img-fluid" src="/assets/img/vue.png" alt="Vue JS">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="portfolio" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="section-header">
+						<h2>Portfólio</h2>
+						<p class="section-header-description">Os principais projetos que eu participei ultimamente.</p>
+					</div>
+
+					<div class="card-deck mb-4">
+
+						<div class="card">
+							<img class="card-img-top" src="/assets/img/turbinagran.png" alt="Imagem de capa do card">
+							<div class="card-body text-left">
+								<h5 class="card-title">TurbinaGran</h5>
+								<p class="card-text">Sistema para impulsionamento de redes sociais, desenvolvido com
+									Bootstrap, PHP e MySQL</p>
+							</div>
+						</div>
+
+						<div class="card">
+							<img class="card-img-top" src="/assets/img/tw3.png" alt="Imagem de capa do card">
+							<div class="card-body text-left">
+								<h5 class="card-title">The Witcher 3 Quiz</h5>
+								<p class="card-text">Aplicação de quiz, desenvolvida com React JS, Next JS e Styled
+									Components, durante a Imersão React da Alura.</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="card-deck">
+
+						<div class="card">
+							<img class="card-img-top" src="/assets/img/handshake.png" alt="Imagem de capa do card">
+							<div class="card-body text-left">
+								<h5 class="card-title">Handshake</h5>
+								<p class="card-text">Sistema feito em WordPress, para realizar a conexão entre artistas
+									e contratantes.</p>
+							</div>
+						</div>
+
+						<div class="card">
+							<!-- <img class="card-img-top" src="/assets/img/tw3.png" alt="Imagem de capa do card"> -->
+							<div class="card-body d-flex justify-content-center align-items-center flex-column">
+								<h5 class="card-title">Veja outros projetos em meu GitHub</h5>
+								<div class="cta">
+									<a class="btn btn-lg border border-light-black github" href="#">GitHub <i
+											class="fab fa-github"></i></a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact" class="section">
+		<div class="container">
+			<div class="row d-flex justify-content-center align-items-center">
+				<div class="col-md-12 text-center">
+					<div class="section-header">
+						<h2>Contato</h2>
+						<p class="section-header-description">Deseja entrar em contato comigo e me conhecer melhor?
+							Preencha os campos abaixo para nos conhecermos.</p>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="card d-flex align-items-center">
+						<!-- <img class="card-img-top" src="/assets/img/tw3.png" alt="Imagem de capa do card"> -->
+						<div class="card-body d-flex justify-content-center align-items-start flex-column">
+							<div>
+								<img class="icon-contact img-fluid" src="/assets/img/location.png">
+								<span>Recife, PE - Brasil</span>
+							</div>
+							<div class="my-4">
+								<img class="icon-contact img-fluid" src="/assets/img/phone.png">
+								<span>+55 (81)
+									98655-3953</span>
+							</div>
+							<div>
+								<img class="icon-contact img-fluid" src="/assets/img/email.png">
+								<span>
+									lucas98fernando@gmail.com</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<form>
+						<div class="form-group">
+							<!-- <label for="name">Nome</label> -->
+							<input type="text" class="form-control" id="name" aria-describedby="nome"
+								placeholder="Nome">
+							<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+								anyone else.</small> -->
+						</div>
+						<div class="form-group">
+							<!-- <label for="email">E-mail</label> -->
+							<input type="password" class="form-control" id="email" placeholder="E-mail">
+						</div>
+						<div class="form-group">
+							<!-- <label for="message">Example textarea</label> -->
+							<textarea class="form-control" id="message" rows="3" placeholder="Messagem"></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">Enviar <i class="far fa-paper-plane"></i></button>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 d-flex justify-content-between align-items-center">
+					<span>
+						Copyright &copy; Lucas Fernando - Todos os direitos reservados
+					</span>
+					<span>
+						<a href="https://www.instagram.com/lucas_fernnando_/?hl=pt-br"><i class="fab fa-instagram"
+								target="_blank"></i></a>
+						<a href="https://www.linkedin.com/in/lucas-fernando-dev/" target="_blank"><i
+								class="fab fa-linkedin mx-2"></i></a>
+						<a href="https://github.com/Lucas98Fernando" target="_blank"><i class="fab fa-github"></i></a>
+					</span>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="assets/js/jquery.js"></script>
 	<script src="assets/js/popper.js"></script>
 	<script src="assets/js/bootstrap.js"></script>
+
+	<!-- AOS JS CDN -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 </body>
 
 </html>
