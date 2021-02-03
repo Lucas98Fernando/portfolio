@@ -1,0 +1,19 @@
+/* Palete Colors */
+/* Fonts */
+@media screen and (max-width: 575px) {
+  body {
+    text-align: center !important; }
+  .cta {
+    margin-bottom: 20px; }
+  #contact .card-contact {
+    margin-bottom: 20px; }
+    #contact .card-contact .icon-contact {
+      width: 30px; }
+  #contact .btn-primary {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+  footer .footer-wrap {
+    flex-direction: column; }
+    footer .footer-wrap span:nth-child(1) {
+      margin-bottom: 20px; } }

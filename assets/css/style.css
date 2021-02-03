@@ -95,18 +95,17 @@ a {
 #hero .logo {
   width: 60px !important; }
 
-#hero-content {
-  padding: 50px 0; }
-  #hero-content p {
-    color: #777777;
-    margin-bottom: 1rem; }
-  #hero-content h1 {
-    color: #222222;
-    font-size: 2.3rem;
-    margin-bottom: 1rem; }
-    #hero-content h1 span {
-      color: #023E8A;
-      font-weight: 700 !important; }
+#hero-content p {
+  color: #777777;
+  margin-bottom: 1rem; }
+
+#hero-content h1 {
+  color: #222222;
+  font-size: 2.3rem;
+  margin-bottom: 1rem; }
+  #hero-content h1 span {
+    color: #023E8A;
+    font-weight: 700 !important; }
 
 /* Palete Colors */
 /* Fonts */
@@ -133,6 +132,26 @@ a {
   #footer i {
     color: #fff;
     font-size: 30px; }
+
+/* Palete Colors */
+/* Fonts */
+@media screen and (max-width: 575px) {
+  body {
+    text-align: center !important; }
+  .cta {
+    margin-bottom: 20px; }
+  #contact .card-contact {
+    margin-bottom: 20px; }
+    #contact .card-contact .icon-contact {
+      width: 30px; }
+  #contact .btn-primary {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+  footer .footer-wrap {
+    flex-direction: column; }
+    footer .footer-wrap span:nth-child(1) {
+      margin-bottom: 20px; } }
 
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)

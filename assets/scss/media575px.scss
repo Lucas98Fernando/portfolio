@@ -1,0 +1,38 @@
+@import "../scss/colors.scss";
+@import "../scss/fonts.scss";
+
+@media screen and (max-width: 575px) {
+    body {
+        text-align: center !important;
+    }
+
+    .cta {
+        margin-bottom: 20px;
+    }
+
+    #contact {
+        .card-contact {
+            margin-bottom: 20px;
+
+            .icon-contact {
+                width: 30px;
+            }
+        }
+
+        .btn-primary {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    footer {
+        .footer-wrap {
+            flex-direction: column;
+
+            & span:nth-child(1) {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
