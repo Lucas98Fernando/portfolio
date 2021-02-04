@@ -44,7 +44,8 @@
 /* Palete Colors */
 /* Fonts */
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  overflow-x: hidden !important; }
 
 body {
   font-family: "Montserrat", sans-serif !important; }
@@ -135,7 +136,6 @@ ul {
   width: 60px;
   height: 45px;
   position: relative;
-  margin: 50px auto;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);

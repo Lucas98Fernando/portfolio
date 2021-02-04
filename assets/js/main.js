@@ -3,12 +3,12 @@ $(document).ready(function () {
 	$('#nav-icon').click(function () {
 		$(this).toggleClass('open');
 
-		if (navicon.style.position === "fixed") {
-			navicon.style.position = "relative";
-		}
-		else {
-			navicon.style.position = "fixed";
-		}
+		// if (navicon.style.position === "fixed") {
+		// 	navicon.style.position = "relative";
+		// }
+		// else {
+		// 	navicon.style.position = "fixed";
+		// }
 	});
 });
 
