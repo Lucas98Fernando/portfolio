@@ -20,7 +20,10 @@ p {
   margin-bottom: 1rem !important; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none !important; }
+
+ul {
+  list-style: none; }
 
 .section {
   padding: 80px 0; }

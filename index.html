@@ -45,9 +45,33 @@
 					<img class="img-fluid logo" src="assets/img/logo.png" alt="Logo" data-aos="zoom-in"
 						data-aos-delay="200">
 				</a>
-				<a class="ml-auto" href="#">
-					<img src="assets/img/bars.png" alt="">
-				</a>
+				<div class="ml-auto">
+					<div id="nav-icon" onclick="mobileToggle();" data-aos="zoom-in"
+					data-aos-delay="400">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+				<div id="navbar-side">
+					<ul>
+						<a href="#hero">
+							<li>Início</li>
+						</a>
+						<a href="#about">
+							<li>Sobre mim</li>
+						</a>
+						<a href="#skills">
+							<li>Habilidades</li>
+						</a>
+						<a href="#portfolio">
+							<li>Portfólio</li>
+						</a>
+						<a href="#contact">
+							<li>Contato</li>
+						</a>
+					</ul>
+				</div>
 			</div>
 		</nav>
 
@@ -85,7 +109,7 @@
 			<div class="row d-flex justify-content-center align-items-center">
 				<div class="col-md-6">
 					<img class="img-fluid lucas-about rounded-circle d-none d-sm-block" src="assets/img/lucas-about.jpg"
-						alt="" data-aos="fade-right" data-aos-delay="300">
+						alt="" data-aos="fade-right" data-aos-delay="400">
 				</div>
 				<div class="col-md-6">
 					<div class="section-header">
@@ -115,61 +139,69 @@
 			<div class="row d-flex justify-content-center align-items-center">
 				<div class="col-md-12 text-center">
 					<div class="section-header">
-						<h2>Habilidades</h2>
+						<h2 data-aos="zoom-in" data-aos-delay="200">Habilidades</h2>
 						<p class="section-header-description">As principais habilidades que eu possuo.</p>
 					</div>
 				</div>
 				<div class="col-md-6">
-					<div class="skills-stats d-flex justify-content-between">
+
+					<div class="skills-stats d-flex justify-content-between" data-aos="fade-right" data-aos-delay="200">
 						<span>HTML</span>
 						<span>80%</span>
 					</div>
-					<div class="progress my-4">
+					<div class="progress my-4" data-aos="fade-right" data-aos-delay="200">
 						<div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80"
 							aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
-					<div class="skills-stats d-flex justify-content-between">
+
+					<div class="skills-stats d-flex justify-content-between" data-aos="fade-right" data-aos-delay="400">
 						<span>Bootstrap</span>
 						<span>80%</span>
 					</div>
-					<div class="progress my-4">
+					<div class="progress my-4" data-aos="fade-right" data-aos-delay="400">
 						<div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80"
 							aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
-					<div class="skills-stats d-flex justify-content-between">
+
+					<div class="skills-stats d-flex justify-content-between" data-aos="fade-right" data-aos-delay="600">
 						<span>Figma</span>
 						<span>70%</span>
 					</div>
-					<div class="progress my-4">
+					<div class="progress my-4" data-aos="fade-right" data-aos-delay="600">
 						<div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70"
 							aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
+
 				</div>
 				<div class="col-md-6">
-					<div class="skills-stats d-flex justify-content-between">
+
+					<div class="skills-stats d-flex justify-content-between" data-aos="fade-left" data-aos-delay="200">
 						<span>Git / GitHub</span>
 						<span>80%</span>
 					</div>
-					<div class="progress my-4">
+					<div class="progress my-4" data-aos="fade-left" data-aos-delay="200">
 						<div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80"
 							aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
-					<div class="skills-stats d-flex justify-content-between">
+
+					<div class="skills-stats d-flex justify-content-between" data-aos="fade-left" data-aos-delay="400">
 						<span>CSS</span>
 						<span>70%</span>
 					</div>
-					<div class="progress my-4">
+					<div class="progress my-4" data-aos="fade-left" data-aos-delay="400">
 						<div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="50"
 							aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
-					<div class="skills-stats d-flex justify-content-between">
+
+					<div class="skills-stats d-flex justify-content-between" data-aos="fade-left" data-aos-delay="600">
 						<span>Javascript</span>
 						<span>40%</span>
 					</div>
-					<div class="progress my-4">
+					<div class="progress my-4" data-aos="fade-left" data-aos-delay="600">
 						<div class="progress-bar bg-primary" role="progressbar" style="width: 40%" aria-valuenow="40"
 							aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
+
 				</div>
 			</div>
 		</div>
@@ -180,12 +212,15 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="section-header">
-						<h2>Estudando atualmente</h2>
+						<h2 data-aos="zoom-in" data-aos-delay="200">Estudando atualmente</h2>
 						<p class="section-header-description">Tecnologias que estou estudando atualmente.</p>
 					</div>
-					<img class="img-fluid" src="assets/img/javascript.png" alt="javascript">
-					<img class="img-fluid mx-4" src="assets/img/react.png" alt="React JS">
-					<img class="img-fluid" src="assets/img/vue.png" alt="Vue JS">
+					<img class="img-fluid" src="assets/img/javascript.png" alt="javascript" data-aos="zoom-in-right"
+						data-aos-delay="200">
+					<img class="img-fluid mx-4" src="assets/img/react.png" alt="React JS" data-aos="zoom-out"
+						data-aos-delay="400">
+					<img class="img-fluid" src="assets/img/vue.png" alt="Vue JS" data-aos="zoom-in-left"
+						data-aos-delay="600">
 				</div>
 			</div>
 		</div>
@@ -196,13 +231,13 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="section-header">
-						<h2>Portfólio</h2>
+						<h2 data-aos="zoom-in" data-aos-delay="200">Portfólio</h2>
 						<p class="section-header-description">Os principais projetos que eu participei ultimamente.</p>
 					</div>
 
 					<div class="card-deck mb-4">
 
-						<div class="card">
+						<div class="card" data-aos="flip-left" data-aos-delay="200">
 							<a href="https://turbinagran.com.br/" target="_blank"><img class="card-img-top"
 									src="assets/img/turbinagran.png" alt="Imagem de capa do card"></a>
 							<div class="card-body text-left">
@@ -212,7 +247,7 @@
 							</div>
 						</div>
 
-						<div class="card">
+						<div class="card" data-aos="flip-right" data-aos-delay="400">
 							<a href="https://tw3-quiz.lucas98fernando.vercel.app/" target="_blank"><img
 									class="card-img-top" src="assets/img/tw3.png" alt="Imagem de capa do card"></a>
 							<div class="card-body text-left">
@@ -226,8 +261,9 @@
 
 					<div class="card-deck">
 
-						<div class="card">
-							<a href="https://handshakeweb.life/" target="_blank"><img class="card-img-top" src="assets/img/handshake.png" alt="Imagem de capa do card"></a>
+						<div class="card" data-aos="flip-left" data-aos-delay="200">
+							<a href="https://handshakeweb.life/" target="_blank"><img class="card-img-top"
+									src="assets/img/handshake.png" alt="Imagem de capa do card"></a>
 							<div class="card-body text-left">
 								<h5 class="card-title">Handshake</h5>
 								<p class="card-text">Sistema feito em WordPress, para realizar a conexão entre artistas
@@ -235,7 +271,7 @@
 							</div>
 						</div>
 
-						<div class="card">
+						<div class="card" data-aos="flip-right" data-aos-delay="400">
 							<!-- <img class="card-img-top" src="assets/img/tw3.png" alt="Imagem de capa do card"> -->
 							<div class="card-body d-flex justify-content-center align-items-center flex-column">
 								<h5 class="card-title">Veja outros projetos em meu GitHub</h5>
@@ -257,14 +293,14 @@
 			<div class="row d-flex justify-content-center align-items-center">
 				<div class="col-md-12 text-center">
 					<div class="section-header">
-						<h2>Contato</h2>
+						<h2 data-aos="zoom-in" data-aos-delay="200">Contato</h2>
 						<p class="section-header-description">Deseja entrar em contato comigo e me conhecer melhor?
 							Preencha os campos abaixo para nos conhecermos.</p>
 					</div>
 				</div>
 
 				<div class="col-md-6 card-contact">
-					<div class="card d-flex align-items-center">
+					<div class="card d-flex align-items-center" data-aos="fade-right" data-aos-delay="200">
 						<!-- <img class="card-img-top" src="assets/img/tw3.png" alt="Imagem de capa do card"> -->
 						<div class="card-body d-flex justify-content-center align-items-start flex-column">
 							<div>
@@ -288,20 +324,23 @@
 					<form>
 						<div class="form-group">
 							<!-- <label for="name">Nome</label> -->
-							<input type="text" class="form-control" id="name" aria-describedby="nome"
-								placeholder="Nome">
+							<input type="text" class="form-control" id="name" aria-describedby="nome" placeholder="Nome"
+								data-aos="fade-left" data-aos-delay="400">
 							<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with
 								anyone else.</small> -->
 						</div>
 						<div class="form-group">
 							<!-- <label for="email">E-mail</label> -->
-							<input type="password" class="form-control" id="email" placeholder="E-mail">
+							<input type="password" class="form-control" id="email" placeholder="E-mail"
+								data-aos="fade-left" data-aos-delay="600">
 						</div>
 						<div class="form-group">
 							<!-- <label for="message">Example textarea</label> -->
-							<textarea class="form-control" id="message" rows="3" placeholder="Messagem"></textarea>
+							<textarea class="form-control" id="message" rows="3" placeholder="Messagem"
+								data-aos="fade-left" data-aos-delay="600"></textarea>
 						</div>
-						<button type="submit" class="btn btn-primary">Enviar <i class="far fa-paper-plane"></i></button>
+						<button type="submit" class="btn btn-primary" data-aos="zoom-in" data-aos-delay="800">Enviar <i
+								class="far fa-paper-plane"></i></button>
 					</form>
 				</div>
 
@@ -317,8 +356,7 @@
 						Copyright &copy; Lucas Fernando - Todos os direitos reservados.
 					</span>
 					<span>
-						<a href="https://www.instagram.com/lucas_fernnando_/?hl=pt-br"><i class="fab fa-instagram"
-								target="_blank"></i></a>
+						<a href="https://www.instagram.com/lucas_fernnando_/?hl=pt-br" target="_blank"><i class="fab fa-instagram"></i></a>
 						<a href="https://www.linkedin.com/in/lucas-fernando-dev/" target="_blank"><i
 								class="fab fa-linkedin mx-2"></i></a>
 						<a href="https://github.com/Lucas98Fernando" target="_blank"><i class="fab fa-github"></i></a>
@@ -339,6 +377,9 @@
 	<script>
 		AOS.init();
 	</script>
+
+	<!-- JS Custom -->
+	<script src="assets/js/main.js"></script>
 </body>
 
 </html>
