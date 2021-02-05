@@ -1,4 +1,8 @@
 /* Palete Colors */
 /* Fonts */
-#study-now img {
-  width: 150px; }
+#study-now {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), url("../img/bg-abstract.jpg");
+  background-position: center;
+  background-size: cover; }
+  #study-now img {
+    width: 150px; }

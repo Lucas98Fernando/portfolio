@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: left;
     z-index: 1;
     display: none;
 
@@ -41,12 +42,21 @@
     cursor: pointer;
     z-index: 2;
 
+    &.open {
+        top: 3%;
+        right: 8%;
+    }
+
+    &.open span {
+        background: #fff;
+    }
+
     span {
         display: block;
         position: absolute;
         height: 7px;
         width: 100%;
-        background: $light-black;
+        background: $primary;
         border-radius: 9px;
         opacity: 1;
         left: 0;

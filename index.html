@@ -56,19 +56,19 @@
 				<div id="navbar-side">
 					<ul>
 						<a href="#hero">
-							<li>Início</li>
+							<li><i class="fas fa-home mr-2"></i> Início</li>
 						</a>
 						<a href="#about">
-							<li>Sobre mim</li>
+							<li><i class="fas fa-address-book mr-2"></i> Sobre mim</li>
 						</a>
 						<a href="#skills">
-							<li>Habilidades</li>
+							<li><i class="fas fa-file-code mr-2"></i> Habilidades</li>
 						</a>
 						<a href="#portfolio">
-							<li>Portfólio</li>
+							<li><i class="fas fa-address-card mr-2"></i> Portfólio</li>
 						</a>
 						<a href="#contact">
-							<li>Contato</li>
+							<li><i class="fas fa-phone-alt mr-2"></i> Contato</li>
 						</a>
 					</ul>
 				</div>
@@ -127,7 +127,9 @@
 						</p>
 					</div>
 					<div class="d-inline-block">
-						<a class="btn btn-primary btn-lg btn-cv" href="#">Baixar CV <i class="fas fa-download"></i></a>
+						<a class="btn btn-primary btn-lg btn-cv"
+							href="assets/docs/Lucas Fernando da Silva - Currículo.pdf" download>Baixar CV <i
+								class="fas fa-download"></i></a>
 					</div>
 				</div>
 			</div>
@@ -215,14 +217,25 @@
 						<h2 data-aos="zoom-in" data-aos-delay="200">Estudando atualmente</h2>
 						<p class="section-header-description">Tecnologias que estou estudando atualmente.</p>
 					</div>
-					<img class="img-fluid" src="assets/img/javascript.png" alt="javascript" data-aos="zoom-in-right"
-						data-aos-delay="200">
-					<img class="img-fluid mx-4" src="assets/img/react.png" alt="React JS" data-aos="zoom-out"
-						data-aos-delay="400">
-					<img class="img-fluid" src="assets/img/vue.png" alt="Vue JS" data-aos="zoom-in-left"
-						data-aos-delay="600">
+				</div>
+				<div class="container d-flex justify-content-center align-items-center">
+					<div class="row">
+						<div class="col-4">
+							<img class="img-fluid" src="assets/img/javascript.png" alt="javascript"
+								data-aos="zoom-in-right" data-aos-delay="200">
+						</div>
+						<div class="col-4">
+							<img class="img-fluid" src="assets/img/react.png" alt="React JS" data-aos="zoom-out"
+								data-aos-delay="400">
+						</div>
+						<div class="col-4">
+							<img class="img-fluid" src="assets/img/vue.png" alt="Vue JS" data-aos="zoom-in-left"
+								data-aos-delay="600">
+						</div>
+					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 	</section>
 
@@ -321,7 +334,7 @@
 					</div>
 				</div>
 				<div class="col-md-6">
-					<form>
+					<form action="POST" data-netlify="true">
 						<div class="form-group">
 							<!-- <label for="name">Nome</label> -->
 							<input type="text" class="form-control" id="name" aria-describedby="nome" placeholder="Nome"

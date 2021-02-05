@@ -96,20 +96,25 @@ ul {
 
 /* Palete Colors */
 /* Fonts */
-#hero .logo {
-  width: 60px !important; }
+#hero {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), url("../img/bg-abstract-r.jpg");
+  background-position: center;
+  background-size: cover; }
+  #hero .logo {
+    width: 60px !important; }
 
-#hero-content p {
-  color: #777777;
-  margin-bottom: 1rem; }
-
-#hero-content h1 {
-  color: #222222;
-  font-size: 2.3rem;
-  margin-bottom: 1rem; }
-  #hero-content h1 span {
-    color: #023E8A;
-    font-weight: 700 !important; }
+#hero-content {
+  padding: 30px 0; }
+  #hero-content p {
+    color: #777777;
+    margin-bottom: 1rem; }
+  #hero-content h1 {
+    color: #222222;
+    font-size: 2.3rem;
+    margin-bottom: 1rem; }
+    #hero-content h1 span {
+      color: #023E8A;
+      font-weight: 700 !important; }
 
 /* Palete Colors */
 /* Fonts */
@@ -123,6 +128,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: left;
   z-index: 1;
   display: none; }
   #navbar-side ul {
@@ -146,12 +152,17 @@ ul {
   transition: .5s ease-in-out;
   cursor: pointer;
   z-index: 2; }
+  #nav-icon.open {
+    top: 3%;
+    right: 8%; }
+  #nav-icon.open span {
+    background: #fff; }
   #nav-icon span {
     display: block;
     position: absolute;
     height: 7px;
     width: 100%;
-    background: #222222;
+    background: #023E8A;
     border-radius: 9px;
     opacity: 1;
     left: 0;
@@ -201,18 +212,45 @@ ul {
 
 /* Palete Colors */
 /* Fonts */
-/* Palete Colors */
-/* Fonts */
-#study-now img {
-  width: 150px; }
+#about {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), url("../img/bg-abstract.jpg");
+  background-position: center;
+  background-size: cover; }
 
 /* Palete Colors */
 /* Fonts */
-#contact .card {
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25); }
-  #contact .card .icon-contact {
-    width: 50px;
-    margin-right: 10px; }
+#skills {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), url("../img/bg-abstract-r.jpg");
+  background-position: center;
+  background-size: cover; }
+
+/* Palete Colors */
+/* Fonts */
+#study-now {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), url("../img/bg-abstract.jpg");
+  background-position: center;
+  background-size: cover; }
+  #study-now img {
+    width: 150px; }
+
+/* Palete Colors */
+/* Fonts */
+#portfolio {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), url("../img/bg-abstract-r.jpg");
+  background-position: bottom;
+  background-size: cover; }
+
+/* Palete Colors */
+/* Fonts */
+#contact {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), url("../img/bg-abstract.jpg");
+  background-position: center;
+  background-size: cover; }
+  #contact .card {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25); }
+    #contact .card .icon-contact {
+      width: 50px;
+      margin-right: 10px; }
 
 /* Palete Colors */
 /* Fonts */
@@ -230,6 +268,8 @@ ul {
 @media screen and (max-width: 575px) {
   body {
     text-align: center !important; }
+  section {
+    padding: 30px 0 !important; }
   .cta {
     margin-bottom: 20px; }
   #contact .card-contact {

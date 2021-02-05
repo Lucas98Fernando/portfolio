@@ -1,14 +1,14 @@
 $(document).ready(function () {
-	var navicon = document.getElementById("nav-icon")
+	var navicon = document.getElementById("nav-icon");
 	$('#nav-icon').click(function () {
 		$(this).toggleClass('open');
 
-		// if (navicon.style.position === "fixed") {
-		// 	navicon.style.position = "relative";
-		// }
-		// else {
-		// 	navicon.style.position = "fixed";
-		// }
+		if (navicon.style.position === "fixed") {
+		navicon.style.position = "relative";
+		}
+		else {
+		navicon.style.position = "fixed";
+		}
 	});
 });
 
