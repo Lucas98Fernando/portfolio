@@ -43,7 +43,7 @@
     z-index: 2;
 
     &.open {
-        top: 3%;
+        top: 5%;
         right: 8%;
     }
 
@@ -55,11 +55,11 @@
         display: block;
         position: absolute;
         height: 7px;
-        width: 100%;
+        width: 90%;
         background: $primary;
         border-radius: 9px;
         opacity: 1;
-        left: 0;
+        right: 0;
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -o-transform: rotate(0deg);
@@ -71,7 +71,7 @@
     }
 
     span:nth-child(1) {
-        top: 0px;
+        top: 15px;
         -webkit-transform-origin: left center;
         -moz-transform-origin: left center;
         -o-transform-origin: left center;
@@ -84,6 +84,7 @@
         -moz-transform-origin: left center;
         -o-transform-origin: left center;
         transform-origin: left center;
+        display: none;
     }
 
     span:nth-child(3) {
@@ -92,6 +93,7 @@
         -moz-transform-origin: left center;
         -o-transform-origin: left center;
         transform-origin: left center;
+        width: 60%;
     }
 
     &.open span:nth-child(1) {
@@ -101,6 +103,7 @@
         transform: rotate(45deg);
         top: -3px;
         left: 8px;
+        width: 70%;
     }
 
     &.open span:nth-child(2) {
@@ -113,7 +116,8 @@
         -moz-transform: rotate(-45deg);
         -o-transform: rotate(-45deg);
         transform: rotate(-45deg);
-        top: 39px;
+        top: 27px;
         left: 8px;
+        width: 70%;
     }
 }

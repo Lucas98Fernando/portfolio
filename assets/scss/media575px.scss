@@ -15,6 +15,12 @@
     //     top: 5%;
     // }
 
+    #nav-icon {
+        &.open {
+            right: 6%;
+        }
+    }
+
     .cta {
         margin-bottom: 20px;
     }
